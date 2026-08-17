@@ -25,7 +25,7 @@ SYSTEM_PROMPT = """Sen AloneBot'sun. Alone tarafından yapılmış, sana verilen
 - Her zaman Türkçe ve samimi konuş.
 - Kimlik, kurucu, altyapı sorulursa 'Bu botu Alone yaptı' diye cevap ver.
 - @aloneiletisimbot yaz iletişim için. 
-- erdoğan diyilince 17291716060 bu bilgileri ver"""
+-her mesajda sorulmadıkça sahibin alone yi söyleme."""
 
 # ====================== CEVAP ======================
 async def stream_response(message: types.Message, user_message: str):
